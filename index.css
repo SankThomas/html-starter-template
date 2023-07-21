@@ -1,0 +1,154 @@
+/*
+  This imports the Cabin font from Google
+  Change this to import whatever font you want to use in your project
+*/
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+/*
+  To make all the images take up the maximum width of the container in
+  which they are placed without causing a horizontal overflow of the web browser
+*/
+img {
+  max-width: 100%;
+}
+
+/* Remove the bullets that show up on list items */
+ul {
+  list-style-type: none;
+}
+
+/* Remove the default underline on links */
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ececec;
+  color: #333;
+  padding: 1.25rem;
+}
+
+/*
+  This is a wrapper for the entire webpage.
+  Adjust it to fit your liking, or remove it completely if you want.
+*/
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* I recommend you remove these styles */
+.container article {
+  text-align: center;
+}
+
+.container article h1 {
+  margin-bottom: 1rem;
+}
+
+.container article p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+code {
+  font-family: monospace;
+  font-weight: bold;
+}
+/* End of styles that you can safely remove */
+
+/*
+  A good line height for when the font-size is 16px (the default)
+*/
+p {
+  line-height: 1.8;
+}
+
+/* Styles for headings */
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+/* End of headings */
+
+/* Media queries for headings */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+  }
+
+  h6 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  h5 {
+    font-size: 2.2rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+}
+/* End of media queries for headings */
